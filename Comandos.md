@@ -57,8 +57,27 @@ __#groupmod "nombre"__ = modificar un grupo despues de aver creado o en su defec
   
   * -o = permite usar un GID duplicado (no unico)
   
-  __groupdel "nombre"__ = eliminar un grupo 
+__groupdel "nombre"__ = eliminar un grupo 
   
+__#timedatectl__ = informacion del reloj y se puede agregar varias configuraciones
   
+    * set-ntp yes|no = activar el servicio de ntp
+    
+    * set-time 3:15 = establecer una hora
+    
+    * list-timezones = muestra una lista de las zonas horarias del planeta
+    
+    * set-timezone = establece la zona horaria selecionada
+    
+    * status  = muestra es estatus del reloj
+
+__# ping 8.8.8.8__ = informacion si es que exite conexion o es alcanzable el host
+
+__# traceroute 8.8.8.8__ = estable la ruta que toma para llegar a la direccion solicitada
+
+__# mtr 8.8.8.8__ = combinacion de ping y traceroute para obtener mas informacion
+
+
+
   
   
