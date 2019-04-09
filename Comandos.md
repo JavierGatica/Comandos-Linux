@@ -15,9 +15,9 @@ __# useradd "Nombre"__ = agregar un usuario nuevo
   
   * -aG = conservar varios grupos
   
- __# passwd "usuario"__ = cambiar o colocar contraseña para un usuario
+__# passwd "usuario"__ = cambiar o colocar contraseña para un usuario
   
- __# usermod "nombre"__ = modificar usuario
+__# usermod "nombre"__ = modificar usuario
   
   * -L = bloquear usuario
   
@@ -25,4 +25,24 @@ __# useradd "Nombre"__ = agregar un usuario nuevo
   
   * Podemos agregar los campos anteriosres que son: cambiar grupo, conservar ambos grupos
   
-  __# userdel -r "usuario"__ = elimina usuario y su directorio
+__# userdel -r "usuario"__ = elimina usuario y su directorio
+
+__# groupadd "nombre"__ = agrega un nuevo grupo
+  
+  * -g # = crea un grupo con gid que sea neceario o solicitado o en su defecto cambiarlo
+  
+  * -n "nombre" "nombrenuevo" = cambia el nombre a un grupo
+  
+  * -o = permite usar un GID duplicado (no unico)
+  
+__#groupmod "nombre"__ = modificar un grupo despues de aver creado o en su defecto cambiarlo
+  
+  * -g # = crea un grupo con gid que sea neceario o solicitado
+  
+  * -n "nombre" "nombrenuevo" = cambia el nombre a un grupo
+  
+  * -o = permite usar un GID duplicado (no unico)
+  
+  __groupdel "nombre"__ = eliminar un grupo 
+  
+  
