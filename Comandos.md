@@ -27,6 +27,20 @@ __# usermod "nombre"__ = modificar usuario
   
 __# userdel -r "usuario"__ = elimina usuario y su directorio
 
+__#chage -d 0 "usuario"__ = solicitar el cambio de contraseña al iniciar sesion
+  
+  * -l = informacion sobre el usuario y su estatus, con respecto a la contraseña y su caducidad
+  
+  * -I # = la cuenta queda on la opcion de recuperar despues de los dias establecidos
+  
+  * -W # = alerta sobre cambios necesarios o caducidad de la cuenta dias antes
+  
+  * -E 2019-03-21 = establece la fecha de caducidad de la cuenta
+  
+  * -M # = dias maximos para cambiar de contraseña
+  
+__# date -d "+90 day"__ = contar dias para establecer el cambio o cualquier otro uso
+
 __# groupadd "nombre"__ = agrega un nuevo grupo
   
   * -g # = crea un grupo con gid que sea neceario o solicitado o en su defecto cambiarlo
@@ -44,5 +58,7 @@ __#groupmod "nombre"__ = modificar un grupo despues de aver creado o en su defec
   * -o = permite usar un GID duplicado (no unico)
   
   __groupdel "nombre"__ = eliminar un grupo 
+  
+  
   
   
