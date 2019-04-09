@@ -2,22 +2,22 @@
 
 > información sobre comandos basico y avanzados en linea de comandos de linux
 
-_# id = Información del usuario_
+__# id__ = Información del usuario
 
-_# tail = se visualizan las ultimas 10 lineas de un archivo o puede modificarse por las necesarioas con el argumento -1,2,3...n_
+__# tail__ = se visualizan las ultimas 10 lineas de un archivo o puede modificarse por las necesarioas con el argumento -1,2,3...n
 
-_# head = se muestra las primeras 10 lineas de un archivo o se puede modificar por las necesarias con el argumento -1,2,3...n_
+__# head__ = se muestra las primeras 10 lineas de un archivo o se puede modificar por las necesarias con el argumento -1,2,3...n
 
-_# useradd "Nombre" = agregar un usuario nuevo_
+__# useradd "Nombre"__ = agregar un usuario nuevo
   * -c = agregar un nombre completo para el campo gecos
   
   * -g = cambiar el grupo principal
   
   * -aG = conservar varios grupos
   
-  _# passwd "usuario" = cambiar o colocar contraseña para un usuario_
+ __# passwd "usuario"__ = cambiar o colocar contraseña para un usuario
   
- _# usermod "nombre" = modificar usuario_
+ __# usermod "nombre"__ = modificar usuario
   
   * -L = bloquear usuario
   
@@ -25,4 +25,4 @@ _# useradd "Nombre" = agregar un usuario nuevo_
   
   * Podemos agregar los campos anteriosres que son: cambiar grupo, conservar ambos grupos
   
-  _# userdel -r "usuario"_ = elimina usuario y su directorio
+  __# userdel -r "usuario"__ = elimina usuario y su directorio
