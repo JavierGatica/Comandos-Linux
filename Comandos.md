@@ -78,6 +78,19 @@ __# traceroute 8.8.8.8__ = estable la ruta que toma para llegar a la direccion s
 
 __# mtr 8.8.8.8__ = combinacion de ping y traceroute para obtener mas informacion
 
+__# free__ = Información de la moemoria Ram y su uso y disponible 
+
+__# free -gt = salida
+
+
+           total        used        free      shared  buff/cache   available
+Mem:              7           1           3           0           2           5
+Swap:             7           0           7
+Total:           15           1          11
+
+
+ 
+
 
 
   
