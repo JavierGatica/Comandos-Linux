@@ -84,9 +84,12 @@ __# free -gt = salida
 
 
            total        used        free      shared  buff/cache   available
-Mem:              7           1           3           0           2           5
-Swap:             7           0           7
-Total:           15           1          11
+
+Mem:          7           1           3           0           2           5
+
+Swap:         7           0           7
+
+Total:        15           1          11
 
 
  
